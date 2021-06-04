@@ -1,0 +1,34 @@
+title-font: "ubuntu"
+title-color: "white"
+title-text: "Aspire One D257"
+#desktop-color: "black"
+desktop-image: "/boot/grub/themes/simpletheme/background.png"
+
++ boot_menu{
+left = 10%
+top = 25%
+width = 80%
+height = 60%
+item_font = "ubuntu"
+selected_item_font = "ubuntu"
+item_color = "black"
+selected_item_color = "grey"
+item_height = 42
+item_spacing = 16
+item_padding = 14
+item_icon_space = 16
+icon_height = 32
+}
+
++ progress_bar{
+id = "__timeout__"
+text_color = "white"
+border_color = "black"
+bg_color = "black"
+fg_color = "darkorange"
+show_text = "false"
+#text = "Weiter in %d Sekunden..."
+top = 98%
+width = 100%
+height = 2%
+}
